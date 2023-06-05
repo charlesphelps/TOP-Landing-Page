@@ -1,5 +1,7 @@
 body {
     font-family: roboto, arial, sans-serif;
+    height: 100%;
+    width: 100%;
 }
 
 .headertop {
@@ -21,6 +23,7 @@ body {
     background-color: #1f2937;
     color: white;
     padding: 60px;
+    padding-bottom: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,7 +35,6 @@ body {
     flex-direction: column;
     width: 320px;
     height: 200px;
-    border: dotted 2px white;
 }
 
 .box1 {
@@ -62,7 +64,6 @@ button:hover {
     align-items: center;
     width: 320px;
     height: 200px;
-    border: solid 2px white;
 }
 
 .sec2maindiv > img {
@@ -141,4 +142,30 @@ button:hover {
     justify-content: flex-end;
     margin-right: 20%;
     padding-bottom: 100px;
+}
+
+.pagesection4 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.secondsignupbox {
+    background-color: #3882F6;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 75px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
 }
