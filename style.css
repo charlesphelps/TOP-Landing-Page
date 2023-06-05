@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    font-family: roboto, arial, sans-serif;
 }
 
 .headertop {
@@ -63,4 +63,82 @@ button:hover {
     width: 320px;
     height: 200px;
     border: solid 2px white;
+}
+
+.sec2maindiv > img {
+    width: 100px;
+    height: 100px;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  .sec2maindiv {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+  }
+
+.beach1 {
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+}
+
+.beach2 {
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+}
+
+.beach3 {
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+}
+
+.beach4 {
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+}
+
+.pagesection3 {
+    background-color: #e5e7eb;
+}
+
+.quotediv {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 5px;
+}
+
+.authordiv {
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20%;
+    padding-bottom: 100px;
 }
